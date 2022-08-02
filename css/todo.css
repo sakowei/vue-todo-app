@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: hsl(210, 100%, 84%);
+}
+
+.app {
+  padding: 48px 28px;
+  width: 60%;
+  max-width: 400px;
+  border-radius: 24px;
+  background-color: hsl(210, 100%, 94%);
+  box-shadow: 0 0 24px rgba(0, 0, 0, .15);
+}
+
+h1 {
+  margin: 24px 0;
+  font-size: 28px;
+  color: #415c73;
+}
